@@ -62,7 +62,7 @@ export default function App() {
     : null;
 
   return (
-    <div className="app">
+    <div className="mx-auto max-w-[1100px] px-2 py-3 sm:px-4 sm:py-6">
       <CalendarHeader
         viewDate={viewDate}
         onPrev={() => setViewDate((d) => addMonths(d, -1))}
